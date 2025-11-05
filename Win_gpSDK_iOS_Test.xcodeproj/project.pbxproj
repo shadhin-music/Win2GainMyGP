@@ -6,8 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		10DBFE502EBB68B500AA8A04 /* Win-gpSDK-iOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DBFE4E2EBB683700AA8A04 /* Win-gpSDK-iOS.xcframework */; };
+		10DBFE512EBB68B500AA8A04 /* Win-gpSDK-iOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10DBFE4E2EBB683700AA8A04 /* Win-gpSDK-iOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10DBFE4B2EBB66D800AA8A04 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				10DBFE512EBB68B500AA8A04 /* Win-gpSDK-iOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		10DA2AF32EBB2D7500BE529E /* Win_gpSDK_iOS_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Win_gpSDK_iOS_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DBFE4E2EBB683700AA8A04 /* Win-gpSDK-iOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "Win-gpSDK-iOS.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DBFE502EBB68B500AA8A04 /* Win-gpSDK-iOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				10DA2AF52EBB2D7500BE529E /* Win_gpSDK_iOS_Test */,
+				10DA2B0E2EBB2DAC00BE529E /* Framework */,
 				10DA2AF42EBB2D7500BE529E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +80,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		10DA2B0E2EBB2DAC00BE529E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				10DBFE4E2EBB683700AA8A04 /* Win-gpSDK-iOS.xcframework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,6 +98,7 @@
 				10DA2AEF2EBB2D7500BE529E /* Sources */,
 				10DA2AF02EBB2D7500BE529E /* Frameworks */,
 				10DA2AF12EBB2D7500BE529E /* Resources */,
+				10DBFE4B2EBB66D800AA8A04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +177,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 767JC457LD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Win_gpSDK_iOS_Test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -153,6 +188,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -178,6 +214,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 767JC457LD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Win_gpSDK_iOS_Test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -185,6 +225,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
