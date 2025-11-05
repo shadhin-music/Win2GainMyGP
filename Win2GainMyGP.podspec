@@ -17,16 +17,15 @@ Pod::Spec.new do |s|
 
   # You can remove s.platform if you want; this is fine:
   s.ios.deployment_target = '13.0'
-  s.swift_version         = '5.0'
+  s.swift_version         = '5.9'
 
   # IMPORTANT: include .git
   s.source = { :git => 'https://github.com/shadhin-music/Win2GainMyGP.git', :tag => s.version.to_s }
-
-  # If your xcframework contains Swift, CocoaPods typically works better with:
  
-  s.ios.vendored_frameworks = 'Framework/Win_gpSDK_iOS.xcframework'
-  s.requires_arc            = true
+  s.vendored_frameworks = 'Framework/Win-gpSDK-iOS.xcframework'
+  s.requires_arc        = true
   s.static_framework = true
+
 end
 
 
