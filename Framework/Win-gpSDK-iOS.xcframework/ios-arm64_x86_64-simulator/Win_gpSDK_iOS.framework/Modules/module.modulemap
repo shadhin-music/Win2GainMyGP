@@ -1,0 +1,6 @@
+framework module Win_gpSDK_iOS {
+  umbrella header "Win_gpSDK_iOS.h"
+  export *
+
+  module * { export * }
+}

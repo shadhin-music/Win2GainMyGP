@@ -1,0 +1,1109 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Win_gpSDK_iOS
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import CoreGraphics
+import CoreText
+import DeveloperToolsSupport
+import Foundation
+import QuartzCore
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+@_exported import Win_gpSDK_iOS
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class Win2GainGPCollectionViewCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency public static let identifier: Swift.String
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class MissingLetterView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency final public func configure()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class MissingLetterButton : UIKit.UIButton {
+  public enum StateStyle {
+    case idle, correct, wrong
+    public static func == (a: Win_gpSDK_iOS.MissingLetterButton.StateStyle, b: Win_gpSDK_iOS.MissingLetterButton.StateStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func setLetter(_ text: Swift.String)
+  @_Concurrency.MainActor @preconcurrency final public func setState(_ style: Win_gpSDK_iOS.MissingLetterButton.StateStyle)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class SpelligView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func configure(question: Swift.String, image: UIKit.UIImage? = nil, answers: [Swift.String], url: Swift.String)
+  #endif
+  @objc deinit
+}
+extension Win_gpSDK_iOS.SpelligView : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension Win_gpSDK_iOS.SpelligView : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class SpellingTableViewCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor @preconcurrency public static let reuseIdentifier: Swift.String
+  public enum StateStyle {
+    case idle, correct, wrong
+    public static func == (a: Win_gpSDK_iOS.SpellingTableViewCell.StateStyle, b: Win_gpSDK_iOS.SpellingTableViewCell.StateStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func configure(answer: Swift.String, letter: Swift.String)
+  @_Concurrency.MainActor @preconcurrency final public func setState(_ style: Win_gpSDK_iOS.SpellingTableViewCell.StateStyle)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class ImageMatchingView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func configure()
+  @objc deinit
+}
+public enum ButtonPhase {
+  case idle, phase1, phase2
+  public static func == (a: Win_gpSDK_iOS.ButtonPhase, b: Win_gpSDK_iOS.ButtonPhase) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class ImageMatchingButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency final public func setState(_ phase: Win_gpSDK_iOS.ButtonPhase)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func loadRemoteImage(_ url: Foundation.URL, placeholder: UIKit.UIImage? = nil)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class MissingLetterButton2 : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency final public func setState(_ phase: Win_gpSDK_iOS.ButtonPhase)
+  @_Concurrency.MainActor @preconcurrency final public func configure(text: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+public enum ToastType {
+  case right, wrong
+  public static func == (a: Win_gpSDK_iOS.ToastType, b: Win_gpSDK_iOS.ToastType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Toast {
+  public static func show(_ message: Swift.String, type: Win_gpSDK_iOS.ToastType, duration: Foundation.TimeInterval = 1.0)
+  public static func show(in container: UIKit.UIView, message: Swift.String, type: Win_gpSDK_iOS.ToastType, duration: Foundation.TimeInterval = 1.0, bottomOffset: CoreFoundation.CGFloat = 50)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AnimatedButton : Win_gpSDK_iOS.AnimatedControl {
+  @_Concurrency.MainActor @preconcurrency override public init(animation: Win_gpSDK_iOS.Animation, configuration: Win_gpSDK_iOS.LottieConfiguration = .shared)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func setPlayRange(fromProgress: Win_gpSDK_iOS.AnimationProgressTime, toProgress: Win_gpSDK_iOS.AnimationProgressTime, event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor @preconcurrency public func setPlayRange(fromMarker fromName: Swift.String, toMarker toName: Swift.String, event: UIKit.UIControl.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  #endif
+  @objc deinit
+}
+@objc final public class CompatibleAnimation : ObjectiveC.NSObject {
+  @objc public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class CompatibleAnimationView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public init(compatibleAnimation: Win_gpSDK_iOS.CompatibleAnimation)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency final public var compatibleAnimation: Win_gpSDK_iOS.CompatibleAnimation? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var loopAnimationCount: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public var contentMode: UIKit.UIView.ContentMode {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var shouldRasterizeWhenIdle: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var currentProgress: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var currentTime: Foundation.TimeInterval {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var currentFrame: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var realtimeAnimationFrame: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var realtimeAnimationProgress: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var animationSpeed: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var respectAnimationFrameRate: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public var isAnimationPlaying: Swift.Bool {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency final public func play()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func play(completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func play(fromProgress: CoreFoundation.CGFloat, toProgress: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func play(fromFrame: CoreFoundation.CGFloat, toFrame: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func play(fromMarker: Swift.String, toMarker: Swift.String, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency final public func stop()
+  @objc @_Concurrency.MainActor @preconcurrency final public func pause()
+  @objc @_Concurrency.MainActor @preconcurrency final public func reloadImages()
+  @objc @_Concurrency.MainActor @preconcurrency final public func forceDisplayUpdate()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func getValue(for keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> Any?
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency final public func logHierarchyKeypaths()
+  @objc @_Concurrency.MainActor @preconcurrency final public func setColorValue(_ color: UIKit.UIColor, forKeypath keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func getColorValue(for keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> UIKit.UIColor?
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency final public func addSubview(_ subview: Win_gpSDK_iOS.AnimationSubview, forLayerAt keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func convert(rect: CoreFoundation.CGRect, toLayerAt keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath?) -> CoreFoundation.CGRect
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public func convert(point: CoreFoundation.CGPoint, toLayerAt keypath: Win_gpSDK_iOS.CompatibleAnimationKeypath?) -> CoreFoundation.CGPoint
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency final public func progressTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency final public func frameTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc deinit
+}
+public protocol AnimationImageProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func imageForAsset(asset: Win_gpSDK_iOS.ImageAsset) -> CoreGraphics.CGImage?
+  #endif
+}
+final public class Keyframe<T> {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(_ value: T, spatialInTangent: Win_gpSDK_iOS.Vector3D? = nil, spatialOutTangent: Win_gpSDK_iOS.Vector3D? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(value: T, time: Win_gpSDK_iOS.AnimationFrameTime, isHold: Swift.Bool = false, inTangent: Win_gpSDK_iOS.Vector2D? = nil, outTangent: Win_gpSDK_iOS.Vector2D? = nil, spatialInTangent: Win_gpSDK_iOS.Vector3D? = nil, spatialOutTangent: Win_gpSDK_iOS.Vector3D? = nil)
+  #endif
+  final public let value: T
+  final public let time: Win_gpSDK_iOS.AnimationFrameTime
+  final public let isHold: Swift.Bool
+  final public let inTangent: Win_gpSDK_iOS.Vector2D?
+  final public let outTangent: Win_gpSDK_iOS.Vector2D?
+  final public let spatialInTangent: Win_gpSDK_iOS.Vector3D?
+  final public let spatialOutTangent: Win_gpSDK_iOS.Vector3D?
+  @objc deinit
+}
+extension Win_gpSDK_iOS.Keyframe : Swift.Equatable where T : Swift.Equatable {
+  public static func == (lhs: Win_gpSDK_iOS.Keyframe<T>, rhs: Win_gpSDK_iOS.Keyframe<T>) -> Swift.Bool
+}
+extension Win_gpSDK_iOS.Keyframe : Swift.Hashable where T : Swift.Hashable {
+  final public func hash(into hasher: inout Swift.Hasher)
+  final public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol AnimationCacheProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func animation(forKey: Swift.String) -> Win_gpSDK_iOS.Animation?
+  #endif
+  func setAnimation(_ animation: Win_gpSDK_iOS.Animation, forKey: Swift.String)
+  func clearCache()
+}
+public protocol AnimationTextProvider : AnyObject {
+  func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+}
+final public class DictionaryTextProvider : Win_gpSDK_iOS.AnimationTextProvider {
+  public init(_ values: [Swift.String : Swift.String])
+  final public func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+final public class DefaultTextProvider : Win_gpSDK_iOS.AnimationTextProvider {
+  public init()
+  final public func textFor(keypathName _: Swift.String, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+public enum LottieBackgroundBehavior {
+  case stop
+  case pause
+  case pauseAndRestore
+  case forceFinish
+  case continuePlaying
+  public static func `default`(for renderingEngine: Win_gpSDK_iOS.RenderingEngine) -> Win_gpSDK_iOS.LottieBackgroundBehavior
+  public static func == (a: Win_gpSDK_iOS.LottieBackgroundBehavior, b: Win_gpSDK_iOS.LottieBackgroundBehavior) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LottieLoopMode {
+  case playOnce
+  case loop
+  case autoReverse
+  case `repeat`(Swift.Float)
+  case repeatBackwards(Swift.Float)
+}
+extension Win_gpSDK_iOS.LottieLoopMode : Swift.Equatable {
+  public static func == (lhs: Win_gpSDK_iOS.LottieLoopMode, rhs: Win_gpSDK_iOS.LottieLoopMode) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency final public class AnimationView : Win_gpSDK_iOS.AnimationViewBase {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(animation: Win_gpSDK_iOS.Animation?, imageProvider: (any Win_gpSDK_iOS.AnimationImageProvider)? = nil, textProvider: any Win_gpSDK_iOS.AnimationTextProvider = DefaultTextProvider(), fontProvider: any Win_gpSDK_iOS.AnimationFontProvider = DefaultFontProvider(), configuration: Win_gpSDK_iOS.LottieConfiguration = .shared, logger: Win_gpSDK_iOS.LottieLogger = .shared)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public init(configuration: Win_gpSDK_iOS.LottieConfiguration = .shared, logger: Win_gpSDK_iOS.LottieLogger = .shared)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public let configuration: Win_gpSDK_iOS.LottieConfiguration
+  @_Concurrency.MainActor @preconcurrency final public var valueProviders: [Win_gpSDK_iOS.AnimationKeypath : any Win_gpSDK_iOS.AnyValueProvider] {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var backgroundBehavior: Win_gpSDK_iOS.LottieBackgroundBehavior {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var animation: Win_gpSDK_iOS.Animation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var imageProvider: any Win_gpSDK_iOS.AnimationImageProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var textProvider: any Win_gpSDK_iOS.AnimationTextProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var fontProvider: any Win_gpSDK_iOS.AnimationFontProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var isAnimationPlaying: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var isAnimationQueued: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var loopMode: Win_gpSDK_iOS.LottieLoopMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var shouldRasterizeWhenIdle: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var currentProgress: Win_gpSDK_iOS.AnimationProgressTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var currentTime: Foundation.TimeInterval {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var currentFrame: Win_gpSDK_iOS.AnimationFrameTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var realtimeAnimationFrame: Win_gpSDK_iOS.AnimationFrameTime {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var realtimeAnimationProgress: Win_gpSDK_iOS.AnimationProgressTime {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var animationSpeed: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var respectAnimationFrameRate: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency final public var viewportFrame: CoreFoundation.CGRect? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public var currentRenderingEngine: Win_gpSDK_iOS.RenderingEngine? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func play(completion: Win_gpSDK_iOS.LottieCompletionBlock? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func play(fromProgress: Win_gpSDK_iOS.AnimationProgressTime? = nil, toProgress: Win_gpSDK_iOS.AnimationProgressTime, loopMode: Win_gpSDK_iOS.LottieLoopMode? = nil, completion: Win_gpSDK_iOS.LottieCompletionBlock? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func play(fromFrame: Win_gpSDK_iOS.AnimationFrameTime? = nil, toFrame: Win_gpSDK_iOS.AnimationFrameTime, loopMode: Win_gpSDK_iOS.LottieLoopMode? = nil, completion: Win_gpSDK_iOS.LottieCompletionBlock? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func play(fromMarker: Swift.String? = nil, toMarker: Swift.String, loopMode: Win_gpSDK_iOS.LottieLoopMode? = nil, completion: Win_gpSDK_iOS.LottieCompletionBlock? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func stop()
+  @_Concurrency.MainActor @preconcurrency final public func pause()
+  @_Concurrency.MainActor @preconcurrency final public func reloadImages()
+  @_Concurrency.MainActor @preconcurrency final public func forceDisplayUpdate()
+  @_Concurrency.MainActor @preconcurrency final public func setValueProvider(_ valueProvider: any Win_gpSDK_iOS.AnyValueProvider, keypath: Win_gpSDK_iOS.AnimationKeypath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func getValue(for keypath: Win_gpSDK_iOS.AnimationKeypath, atFrame: Win_gpSDK_iOS.AnimationFrameTime?) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func getOriginalValue(for keypath: Win_gpSDK_iOS.AnimationKeypath, atFrame: Win_gpSDK_iOS.AnimationFrameTime?) -> Any?
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func logHierarchyKeypaths()
+  @_Concurrency.MainActor @preconcurrency final public func addSubview(_ subview: Win_gpSDK_iOS.AnimationSubview, forLayerAt keypath: Win_gpSDK_iOS.AnimationKeypath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func convert(_ rect: CoreFoundation.CGRect, toLayerAt keypath: Win_gpSDK_iOS.AnimationKeypath?) -> CoreFoundation.CGRect?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func convert(_ point: CoreFoundation.CGPoint, toLayerAt keypath: Win_gpSDK_iOS.AnimationKeypath?) -> CoreFoundation.CGPoint?
+  #endif
+  @_Concurrency.MainActor @preconcurrency final public func setNodeIsEnabled(isEnabled: Swift.Bool, keypath: Win_gpSDK_iOS.AnimationKeypath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func progressTime(forMarker named: Swift.String) -> Win_gpSDK_iOS.AnimationProgressTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency final public func frameTime(forMarker named: Swift.String) -> Win_gpSDK_iOS.AnimationFrameTime?
+  #endif
+  @objc deinit
+}
+public protocol Interpolatable : Win_gpSDK_iOS.AnyInterpolatable {
+  func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+}
+public protocol SpatialInterpolatable : Win_gpSDK_iOS.AnyInterpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+  #endif
+}
+public protocol AnyInterpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+  #endif
+}
+extension Win_gpSDK_iOS.Interpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent _: CoreFoundation.CGPoint?, spatialInTangent _: CoreFoundation.CGPoint?) -> Self
+  #endif
+}
+extension Win_gpSDK_iOS.SpatialInterpolatable {
+  public func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+  #endif
+}
+extension Swift.Double : Win_gpSDK_iOS.Interpolatable {
+}
+extension CoreFoundation.CGFloat : Win_gpSDK_iOS.Interpolatable {
+}
+extension Swift.Float : Win_gpSDK_iOS.Interpolatable {
+}
+extension Win_gpSDK_iOS.Interpolatable where Self : Swift.BinaryFloatingPoint {
+  public func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+}
+extension CoreFoundation.CGRect : Win_gpSDK_iOS.Interpolatable {
+  public func interpolate(to: CoreFoundation.CGRect, amount: CoreFoundation.CGFloat) -> CoreFoundation.CGRect
+}
+extension CoreFoundation.CGSize : Win_gpSDK_iOS.Interpolatable {
+  public func interpolate(to: CoreFoundation.CGSize, amount: CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+}
+extension CoreFoundation.CGPoint : Win_gpSDK_iOS.SpatialInterpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func interpolate(to: CoreFoundation.CGPoint, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> CoreFoundation.CGPoint
+  #endif
+}
+extension Win_gpSDK_iOS.Color : Win_gpSDK_iOS.Interpolatable {
+  public func interpolate(to: Win_gpSDK_iOS.Color, amount: CoreFoundation.CGFloat) -> Win_gpSDK_iOS.Color
+}
+extension Win_gpSDK_iOS.Vector1D : Win_gpSDK_iOS.Interpolatable {
+  public func interpolate(to: Win_gpSDK_iOS.Vector1D, amount: CoreFoundation.CGFloat) -> Win_gpSDK_iOS.Vector1D
+}
+extension Win_gpSDK_iOS.Vector2D : Win_gpSDK_iOS.SpatialInterpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func interpolate(to: Win_gpSDK_iOS.Vector2D, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Win_gpSDK_iOS.Vector2D
+  #endif
+}
+extension Win_gpSDK_iOS.Vector3D : Win_gpSDK_iOS.SpatialInterpolatable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func interpolate(to: Win_gpSDK_iOS.Vector3D, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Win_gpSDK_iOS.Vector3D
+  #endif
+}
+extension Swift.Array : Win_gpSDK_iOS.Interpolatable, Win_gpSDK_iOS.AnyInterpolatable where Element : Win_gpSDK_iOS.Interpolatable {
+  public func interpolate(to: [Element], amount: CoreFoundation.CGFloat) -> [Element]
+}
+final public class SizeValueProvider {
+  public init(block: @escaping Win_gpSDK_iOS.SizeValueProvider.SizeValueBlock)
+  public init(_ size: CoreFoundation.CGSize)
+  public typealias SizeValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+  final public var size: CoreFoundation.CGSize {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: Win_gpSDK_iOS.ValueProviderStorage<Win_gpSDK_iOS.Vector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+extension Win_gpSDK_iOS.Vector1D : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Vector2D : Swift.Codable, Swift.Hashable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: Win_gpSDK_iOS.Vector2D, b: Win_gpSDK_iOS.Vector2D) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Win_gpSDK_iOS.Vector3D : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension Win_gpSDK_iOS.Vector3D {
+  public var pointValue: CoreFoundation.CGPoint {
+    get
+  }
+  public var sizeValue: CoreFoundation.CGSize {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AnimatedSwitch : Win_gpSDK_iOS.AnimatedControl {
+  @_Concurrency.MainActor @preconcurrency override public init(animation: Win_gpSDK_iOS.Animation, configuration: Win_gpSDK_iOS.LottieConfiguration = .shared)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  public enum CancelBehavior {
+    case reverse
+    case none
+    public static func == (a: Win_gpSDK_iOS.AnimatedSwitch.CancelBehavior, b: Win_gpSDK_iOS.AnimatedSwitch.CancelBehavior) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public var cancelBehavior: Win_gpSDK_iOS.AnimatedSwitch.CancelBehavior
+  @_Concurrency.MainActor @preconcurrency public var isOn: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func setIsOn(_ isOn: Swift.Bool, animated: Swift.Bool, shouldFireHaptics: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public func setProgressForState(fromProgress: Win_gpSDK_iOS.AnimationProgressTime, toProgress: Win_gpSDK_iOS.AnimationProgressTime, forOnState: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  #endif
+  @_Concurrency.MainActor @preconcurrency override public func animationDidSet()
+  @objc deinit
+}
+public struct Vector1D : Swift.Hashable {
+  public init(_ value: Swift.Double)
+  public let value: Swift.Double
+  public static func == (a: Win_gpSDK_iOS.Vector1D, b: Win_gpSDK_iOS.Vector1D) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Vector3D : Swift.Hashable {
+  public let x: Swift.Double
+  public let y: Swift.Double
+  public let z: Swift.Double
+  public init(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  public static func == (a: Win_gpSDK_iOS.Vector3D, b: Win_gpSDK_iOS.Vector3D) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LayerType : Swift.Int, Swift.Codable {
+  case precomp
+  case solid
+  case image
+  case null
+  case shape
+  case text
+  public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum MatteType : Swift.Int, Swift.Codable {
+  case none
+  case add
+  case invert
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BlendMode : Swift.Int, Swift.Codable {
+  case normal
+  case multiply
+  case screen
+  case overlay
+  case darken
+  case lighten
+  case colorDodge
+  case colorBurn
+  case hardLight
+  case softLight
+  case difference
+  case exclusion
+  case hue
+  case saturation
+  case color
+  case luminosity
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias LottieCompletionBlock = (Swift.Bool) -> Swift.Void
+public class LRUAnimationCache : Win_gpSDK_iOS.AnimationCacheProvider {
+  public init()
+  public static let sharedCache: Win_gpSDK_iOS.LRUAnimationCache
+  public var cacheSize: Swift.Int
+  public func clearCache()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func animation(forKey: Swift.String) -> Win_gpSDK_iOS.Animation?
+  #endif
+  public func setAnimation(_ animation: Win_gpSDK_iOS.Animation, forKey: Swift.String)
+  @objc deinit
+}
+extension UIKit.UIColor {
+  public var lottieColorValue: Win_gpSDK_iOS.Color {
+    get
+  }
+}
+extension Win_gpSDK_iOS.Color : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension QuartzCore.CALayer {
+  @nonobjc public func logLayerTree(withIndent: Swift.Int = 0)
+}
+extension Win_gpSDK_iOS.Animation {
+  public typealias DownloadClosure = (Win_gpSDK_iOS.Animation?) -> Swift.Void
+  final public var duration: Foundation.TimeInterval {
+    get
+  }
+  final public var bounds: CoreFoundation.CGRect {
+    get
+  }
+  final public var size: CoreFoundation.CGSize {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = nil) -> Win_gpSDK_iOS.Animation?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func filepath(_ filepath: Swift.String, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = nil) -> Win_gpSDK_iOS.Animation?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func asset(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = nil) -> Win_gpSDK_iOS.Animation?
+  #endif
+  public static func from(data: Foundation.Data, strategy: Win_gpSDK_iOS.DecodingStrategy = LottieConfiguration.shared.decodingStrategy) throws -> Win_gpSDK_iOS.Animation
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func loadedFrom(url: Foundation.URL, closure: @escaping Win_gpSDK_iOS.Animation.DownloadClosure, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func progressTime(forMarker named: Swift.String) -> Win_gpSDK_iOS.AnimationProgressTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func frameTime(forMarker named: Swift.String) -> Win_gpSDK_iOS.AnimationFrameTime?
+  #endif
+  final public func progressTime(forFrame frameTime: Win_gpSDK_iOS.AnimationFrameTime, clamped: Swift.Bool = true) -> Win_gpSDK_iOS.AnimationProgressTime
+  final public func frameTime(forProgress progressTime: Win_gpSDK_iOS.AnimationProgressTime) -> Win_gpSDK_iOS.AnimationFrameTime
+  final public func time(forFrame frameTime: Win_gpSDK_iOS.AnimationFrameTime) -> Foundation.TimeInterval
+  final public func frameTime(forTime time: Foundation.TimeInterval) -> Win_gpSDK_iOS.AnimationFrameTime
+}
+public class FilepathImageProvider : Win_gpSDK_iOS.AnimationImageProvider {
+  public init(filepath: Swift.String)
+  public init(filepath: Foundation.URL)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func imageForAsset(asset: Win_gpSDK_iOS.ImageAsset) -> CoreGraphics.CGImage?
+  #endif
+  @objc deinit
+}
+extension Win_gpSDK_iOS.AnimationView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: (any Win_gpSDK_iOS.AnimationImageProvider)? = nil, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency convenience public init(filePath: Swift.String, imageProvider: (any Win_gpSDK_iOS.AnimationImageProvider)? = nil, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency convenience public init(url: Foundation.URL, imageProvider: (any Win_gpSDK_iOS.AnimationImageProvider)? = nil, closure: @escaping Win_gpSDK_iOS.AnimationView.DownloadClosure, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency convenience public init(asset name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: (any Win_gpSDK_iOS.AnimationImageProvider)? = nil, animationCache: (any Win_gpSDK_iOS.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  #endif
+  public typealias DownloadClosure = ((any Swift.Error)?) -> Swift.Void
+}
+final public class PointValueProvider {
+  public init(block: @escaping Win_gpSDK_iOS.PointValueProvider.PointValueBlock)
+  public init(_ point: CoreFoundation.CGPoint)
+  public typealias PointValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGPoint
+  final public var point: CoreFoundation.CGPoint {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: Win_gpSDK_iOS.ValueProviderStorage<Win_gpSDK_iOS.Vector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+@objc final public class CompatibleAnimationKeypath : ObjectiveC.NSObject {
+  @objc public init(keypath: Swift.String)
+  @objc public init(keys: [Swift.String])
+  final public let animationKeypath: Win_gpSDK_iOS.AnimationKeypath
+  @objc deinit
+}
+public protocol AnimationFontProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+  #endif
+}
+final public class DefaultFontProvider : Win_gpSDK_iOS.AnimationFontProvider {
+  public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+  #endif
+  @objc deinit
+}
+final public class ColorValueProvider {
+  public init(block: @escaping Win_gpSDK_iOS.ColorValueProvider.ColorValueBlock)
+  public init(_ color: Win_gpSDK_iOS.Color)
+  public init(_ keyframes: [Win_gpSDK_iOS.Keyframe<Win_gpSDK_iOS.Color>])
+  public typealias ColorValueBlock = (CoreFoundation.CGFloat) -> Win_gpSDK_iOS.Color
+  final public var color: Win_gpSDK_iOS.Color {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: Win_gpSDK_iOS.ValueProviderStorage<Win_gpSDK_iOS.Color> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AnimationSubview : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Asset : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  final public let id: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public class BundleImageProvider : Win_gpSDK_iOS.AnimationImageProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(bundle: Foundation.Bundle, searchPath: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func imageForAsset(asset: Win_gpSDK_iOS.ImageAsset) -> CoreGraphics.CGImage?
+  #endif
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : Win_gpSDK_iOS.Asset {
+  final public let name: Swift.String
+  final public let directory: Swift.String
+  final public let width: Swift.Double
+  final public let height: Swift.Double
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+final public class FloatValueProvider {
+  public init(block: @escaping Win_gpSDK_iOS.FloatValueProvider.CGFloatValueBlock)
+  public init(_ float: CoreFoundation.CGFloat)
+  public typealias CGFloatValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  final public var float: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: Win_gpSDK_iOS.ValueProviderStorage<Win_gpSDK_iOS.Vector1D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+public typealias AnimationFrameTime = CoreFoundation.CGFloat
+public typealias AnimationProgressTime = CoreFoundation.CGFloat
+final public class GradientValueProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(block: @escaping Win_gpSDK_iOS.GradientValueProvider.ColorsValueBlock, locations: Win_gpSDK_iOS.GradientValueProvider.ColorLocationsBlock? = nil)
+  #endif
+  public init(_ colors: [Win_gpSDK_iOS.Color], locations: [Swift.Double] = [])
+  public typealias ColorsValueBlock = (CoreFoundation.CGFloat) -> [Win_gpSDK_iOS.Color]
+  public typealias ColorLocationsBlock = (CoreFoundation.CGFloat) -> [Swift.Double]
+  final public var colors: [Win_gpSDK_iOS.Color] {
+    get
+    set
+  }
+  final public var locations: [Swift.Double] {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: Win_gpSDK_iOS.ValueProviderStorage<[Swift.Double]> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+final public class LottieLogger {
+  public init(assert: @escaping Win_gpSDK_iOS.LottieLogger.Assert = Swift.assert, assertionFailure: @escaping Win_gpSDK_iOS.LottieLogger.AssertionFailure = Swift.assertionFailure, warn: @escaping Win_gpSDK_iOS.LottieLogger.Warn = { message, _, _ in
+    }, info: @escaping Win_gpSDK_iOS.LottieLogger.Info = { message in
+    })
+  public typealias Assert = (_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias AssertionFailure = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Warn = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Info = (_ message: @autoclosure () -> Swift.String) -> Swift.Void
+  public static var shared: Win_gpSDK_iOS.LottieLogger
+  final public func assert(_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func assertionFailure(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func warn(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func info(_ message: @autoclosure () -> Swift.String = String())
+  @objc deinit
+}
+extension Win_gpSDK_iOS.LottieLogger {
+  public static var printToConsole: Win_gpSDK_iOS.LottieLogger {
+    get
+  }
+}
+public protocol AnyValueProvider {
+  var valueType: any Any.Type { get }
+  var typeErasedStorage: Win_gpSDK_iOS.AnyValueProviderStorage { get }
+  func hasUpdate(frame: Win_gpSDK_iOS.AnimationFrameTime) -> Swift.Bool
+}
+extension Win_gpSDK_iOS.AnyValueProvider {
+  public func value(frame: Win_gpSDK_iOS.AnimationFrameTime) -> Any
+}
+public enum ValueProviderStorage<T> where T : Win_gpSDK_iOS.AnyInterpolatable {
+  case singleValue(T)
+  case keyframes([Win_gpSDK_iOS.Keyframe<T>])
+  case closure((Win_gpSDK_iOS.AnimationFrameTime) -> T)
+}
+public enum AnyValueProviderStorage {
+  case singleValue(Any)
+  case keyframes([Win_gpSDK_iOS.Keyframe<Any>], interpolate: (Win_gpSDK_iOS.AnimationFrameTime) -> Any)
+  case closure((Win_gpSDK_iOS.AnimationFrameTime) -> Any)
+}
+public enum ColorFormatDenominator : Swift.Hashable {
+  case One
+  case OneHundred
+  case TwoFiftyFive
+  public static func == (a: Win_gpSDK_iOS.ColorFormatDenominator, b: Win_gpSDK_iOS.ColorFormatDenominator) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Color : Swift.Hashable {
+  public var r: Swift.Double
+  public var g: Swift.Double
+  public var b: Swift.Double
+  public var a: Swift.Double
+  public init(r: Swift.Double, g: Swift.Double, b: Swift.Double, a: Swift.Double, denominator: Win_gpSDK_iOS.ColorFormatDenominator = .One)
+  public static func == (a: Win_gpSDK_iOS.Color, b: Win_gpSDK_iOS.Color) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct AnimationKeypath : Swift.Hashable, Swift.ExpressibleByStringLiteral {
+  public init(keypath: Swift.String)
+  public init(stringLiteral: Swift.String)
+  public init(keys: [Swift.String])
+  public static func == (a: Win_gpSDK_iOS.AnimationKeypath, b: Win_gpSDK_iOS.AnimationKeypath) -> Swift.Bool
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CoordinateSpace : Swift.Int, Swift.Codable {
+  case type2d
+  case type3d
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+final public class Animation : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(dictionary: [Swift.String : Any]) throws
+  final public let startFrame: Win_gpSDK_iOS.AnimationFrameTime
+  final public let endFrame: Win_gpSDK_iOS.AnimationFrameTime
+  final public let framerate: Swift.Double
+  final public var markerNames: [Swift.String] {
+    get
+  }
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_Concurrency.MainActor @preconcurrency open class AnimatedControl : UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency public init(animation: Win_gpSDK_iOS.Animation, configuration: Win_gpSDK_iOS.LottieConfiguration = .shared)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func continueTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func cancelTracking(with event: UIKit.UIEvent?)
+  #endif
+  @_Concurrency.MainActor @preconcurrency open func animationDidSet()
+  @_Concurrency.MainActor @preconcurrency final public let animationView: Win_gpSDK_iOS.AnimationView
+  @_Concurrency.MainActor @preconcurrency public var animation: Win_gpSDK_iOS.Animation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var animationSpeed: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public func setLayer(named: Swift.String, forState: UIKit.UIControl.State)
+  @_Concurrency.MainActor @preconcurrency public func setValueProvider(_ valueProvider: any Win_gpSDK_iOS.AnyValueProvider, keypath: Win_gpSDK_iOS.AnimationKeypath)
+  @objc deinit
+}
+infix operator +| : DefaultPrecedence
+infix operator +- : DefaultPrecedence
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AnimationViewBase : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+public struct LottieConfiguration : Swift.Hashable {
+  public init(renderingEngine: Win_gpSDK_iOS.RenderingEngineOption = .mainThread, decodingStrategy: Win_gpSDK_iOS.DecodingStrategy = .codable)
+  public static var shared: Win_gpSDK_iOS.LottieConfiguration
+  public var renderingEngine: Win_gpSDK_iOS.RenderingEngineOption
+  public var decodingStrategy: Win_gpSDK_iOS.DecodingStrategy
+  public static func == (a: Win_gpSDK_iOS.LottieConfiguration, b: Win_gpSDK_iOS.LottieConfiguration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RenderingEngineOption : Swift.Hashable {
+  case automatic
+  case specific(Win_gpSDK_iOS.RenderingEngine)
+  public static var mainThread: Win_gpSDK_iOS.RenderingEngineOption {
+    get
+  }
+  public static var coreAnimation: Win_gpSDK_iOS.RenderingEngineOption {
+    get
+  }
+}
+public enum RenderingEngine : Swift.Hashable {
+  case mainThread
+  case coreAnimation
+}
+extension Win_gpSDK_iOS.RenderingEngineOption : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+}
+extension Win_gpSDK_iOS.RenderingEngine : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+}
+public enum DecodingStrategy : Swift.Hashable {
+  case codable
+  case dictionaryBased
+  public static func == (a: Win_gpSDK_iOS.DecodingStrategy, b: Win_gpSDK_iOS.DecodingStrategy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class ImageLoader {
+  public static let shared: Win_gpSDK_iOS.ImageLoader
+  final public func cancel(for imageView: UIKit.UIImageView)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  final public func load(_ url: Foundation.URL, into imageView: UIKit.UIImageView, placeholder: UIKit.UIImage? = nil, cacheKey: Swift.String? = nil, ignoreURLCache: Swift.Bool = true) -> Foundation.URLSessionDataTask?
+  #endif
+  @objc deinit
+}
+extension Win_gpSDK_iOS.MissingLetterButton.StateStyle : Swift.Equatable {}
+extension Win_gpSDK_iOS.MissingLetterButton.StateStyle : Swift.Hashable {}
+extension Win_gpSDK_iOS.SpellingTableViewCell.StateStyle : Swift.Equatable {}
+extension Win_gpSDK_iOS.SpellingTableViewCell.StateStyle : Swift.Hashable {}
+extension Win_gpSDK_iOS.ButtonPhase : Swift.Equatable {}
+extension Win_gpSDK_iOS.ButtonPhase : Swift.Hashable {}
+extension Win_gpSDK_iOS.ToastType : Swift.Equatable {}
+extension Win_gpSDK_iOS.ToastType : Swift.Hashable {}
+extension Win_gpSDK_iOS.LottieBackgroundBehavior : Swift.Equatable {}
+extension Win_gpSDK_iOS.LottieBackgroundBehavior : Swift.Hashable {}
+extension Win_gpSDK_iOS.SizeValueProvider : Win_gpSDK_iOS.AnyValueProvider {}
+extension Win_gpSDK_iOS.AnimatedSwitch.CancelBehavior : Swift.Equatable {}
+extension Win_gpSDK_iOS.AnimatedSwitch.CancelBehavior : Swift.Hashable {}
+extension Win_gpSDK_iOS.LayerType : Swift.Equatable {}
+extension Win_gpSDK_iOS.LayerType : Swift.Hashable {}
+extension Win_gpSDK_iOS.LayerType : Swift.RawRepresentable {}
+extension Win_gpSDK_iOS.MatteType : Swift.Equatable {}
+extension Win_gpSDK_iOS.MatteType : Swift.Hashable {}
+extension Win_gpSDK_iOS.MatteType : Swift.RawRepresentable {}
+extension Win_gpSDK_iOS.BlendMode : Swift.Equatable {}
+extension Win_gpSDK_iOS.BlendMode : Swift.Hashable {}
+extension Win_gpSDK_iOS.BlendMode : Swift.RawRepresentable {}
+extension Win_gpSDK_iOS.PointValueProvider : Win_gpSDK_iOS.AnyValueProvider {}
+extension Win_gpSDK_iOS.ColorValueProvider : Win_gpSDK_iOS.AnyValueProvider {}
+extension Win_gpSDK_iOS.FloatValueProvider : Win_gpSDK_iOS.AnyValueProvider {}
+extension Win_gpSDK_iOS.GradientValueProvider : Win_gpSDK_iOS.AnyValueProvider {}
+extension Win_gpSDK_iOS.CoordinateSpace : Swift.Equatable {}
+extension Win_gpSDK_iOS.CoordinateSpace : Swift.Hashable {}
+extension Win_gpSDK_iOS.CoordinateSpace : Swift.RawRepresentable {}
