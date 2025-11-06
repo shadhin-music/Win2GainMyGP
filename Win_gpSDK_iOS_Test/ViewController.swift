@@ -12,7 +12,7 @@
 
 
 import UIKit
-import Win_gpSDK_iOS
+import Win2GainMyGP
 
 class ViewController: UIViewController {
     
