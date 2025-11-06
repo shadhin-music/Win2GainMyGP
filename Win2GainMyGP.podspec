@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => 'https://github.com/shadhin-music/Win2GainMyGP.git', :tag => s.version.to_s }
 
-  s.vendored_frameworks   = 'Framework/Win-gpSDK-iOS.xcframework'
+  s.vendored_frameworks   = 'Framework/Win2GainMyGP.xcframework'
   s.requires_arc          = true
 
   # Remove this unless you KNOW the binary is static:
