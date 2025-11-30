@@ -33,19 +33,6 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		10EA46D12EBC80D600A50EFE /* Exceptions for "Framework" folder in "Embed Frameworks" phase from "Win_gpSDK_iOS_Test" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				Win2GainMyGP.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = 10DBFE4B2EBB66D800AA8A04 /* Embed Frameworks */;
-			membershipExceptions = (
-				Win2GainMyGP.xcframework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		10DA2AF52EBB2D7500BE529E /* Win_gpSDK_iOS_Test */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -57,9 +44,6 @@
 		};
 		10EA46CE2EBC80D600A50EFE /* Framework */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				10EA46D12EBC80D600A50EFE /* Exceptions for "Framework" folder in "Embed Frameworks" phase from "Win_gpSDK_iOS_Test" target */,
-			);
 			path = Framework;
 			sourceTree = "<group>";
 		};

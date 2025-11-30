@@ -143,8 +143,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Win2GainGPCollectionViewCell",
-        "printedName": "Win2GainGPCollectionViewCell",
+        "name": "Win2GainCollectionViewCell",
+        "printedName": "Win2GainCollectionViewCell",
         "children": [
           {
             "kind": "Var",
@@ -159,8 +159,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12Win2GainMyGP0aB20GPCollectionViewCellC10identifierSSvpZ",
-            "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC10identifierSSvpZ",
+            "usr": "s:12Win2GainMyGP0aB18CollectionViewCellC10identifierSSvpZ",
+            "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC10identifierSSvpZ",
             "moduleName": "Win2GainMyGP",
             "static": true,
             "declAttributes": [
@@ -187,8 +187,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12Win2GainMyGP0aB20GPCollectionViewCellC10identifierSSvgZ",
-                "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC10identifierSSvgZ",
+                "usr": "s:12Win2GainMyGP0aB18CollectionViewCellC10identifierSSvgZ",
+                "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC10identifierSSvgZ",
                 "moduleName": "Win2GainMyGP",
                 "static": true,
                 "implicit": true,
@@ -206,9 +206,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Win2GainGPCollectionViewCell",
-                "printedName": "Win2GainMyGP.Win2GainGPCollectionViewCell",
-                "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell"
+                "name": "Win2GainCollectionViewCell",
+                "printedName": "Win2GainMyGP.Win2GainCollectionViewCell",
+                "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell"
               },
               {
                 "kind": "TypeNominal",
@@ -218,8 +218,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell(im)initWithFrame:",
-            "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC5frameACSo6CGRectV_tcfc",
+            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell(im)initWithFrame:",
+            "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC5frameACSo6CGRectV_tcfc",
             "moduleName": "Win2GainMyGP",
             "overriding": true,
             "objc_name": "initWithFrame:",
@@ -241,13 +241,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Win2GainMyGP.Win2GainGPCollectionViewCell?",
+                "printedName": "Win2GainMyGP.Win2GainCollectionViewCell?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Win2GainGPCollectionViewCell",
-                    "printedName": "Win2GainMyGP.Win2GainGPCollectionViewCell",
-                    "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell"
+                    "name": "Win2GainCollectionViewCell",
+                    "printedName": "Win2GainMyGP.Win2GainCollectionViewCell",
+                    "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell"
                   }
                 ],
                 "usr": "s:Sq"
@@ -260,8 +260,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell(im)initWithCoder:",
-            "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell(im)initWithCoder:",
+            "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "Win2GainMyGP",
             "overriding": true,
             "objc_name": "initWithCoder:",
@@ -287,8 +287,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell(im)layoutSubviews",
-            "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC14layoutSubviewsyyF",
+            "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell(im)layoutSubviews",
+            "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC14layoutSubviewsyyF",
             "moduleName": "Win2GainMyGP",
             "overriding": true,
             "objc_name": "layoutSubviews",
@@ -304,8 +304,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainGPCollectionViewCell",
-        "mangledName": "$s12Win2GainMyGP0aB20GPCollectionViewCellC",
+        "usr": "c:@M@Win2GainMyGP@objc(cs)Win2GainCollectionViewCell",
+        "mangledName": "$s12Win2GainMyGP0aB18CollectionViewCellC",
         "moduleName": "Win2GainMyGP",
         "declAttributes": [
           "Preconcurrency",
@@ -15151,6 +15151,532 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WinGameAttempts",
+        "printedName": "WinGameAttempts",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "max",
+            "printedName": "max",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP15WinGameAttemptsV3maxSivp",
+            "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV3maxSivp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV3maxSivg",
+                "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV3maxSivg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remaining",
+            "printedName": "remaining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP15WinGameAttemptsV9remainingSivp",
+            "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV9remainingSivp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV9remainingSivg",
+                "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV9remainingSivg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV9remainingSivs",
+                "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV9remainingSivs",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV9remainingSivM",
+                "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV9remainingSivM",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WinGameAttempts",
+                "printedName": "Win2GainMyGP.WinGameAttempts",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12Win2GainMyGP15WinGameAttemptsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Win2GainMyGP",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP15WinGameAttemptsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Win2GainMyGP",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WinGameAttempts",
+                "printedName": "Win2GainMyGP.WinGameAttempts",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WinGameAttempts",
+                "printedName": "Win2GainMyGP.WinGameAttempts",
+                "usr": "s:12Win2GainMyGP15WinGameAttemptsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP15WinGameAttemptsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV2eeoiySbAC_ACtFZ",
+            "moduleName": "Win2GainMyGP",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12Win2GainMyGP15WinGameAttemptsV",
+        "mangledName": "$s12Win2GainMyGP15WinGameAttemptsV",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Win2GainFreeAttemptsManager",
+        "printedName": "Win2GainFreeAttemptsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Win2GainFreeAttemptsManager",
+                "printedName": "Win2GainMyGP.Win2GainFreeAttemptsManager",
+                "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC6sharedACvpZ",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC6sharedACvpZ",
+            "moduleName": "Win2GainMyGP",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Win2GainFreeAttemptsManager",
+                    "printedName": "Win2GainMyGP.Win2GainFreeAttemptsManager",
+                    "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC6sharedACvgZ",
+                "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC6sharedACvgZ",
+                "moduleName": "Win2GainMyGP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "attempts",
+            "printedName": "attempts(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Win2GainMyGP.WinGameAttempts?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WinGameAttempts",
+                    "printedName": "Win2GainMyGP.WinGameAttempts",
+                    "usr": "s:12Win2GainMyGP15WinGameAttemptsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC8attempts3forAA07WinGameF0VSgSi_tF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC8attempts3forAA07WinGameF0VSgSi_tF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasFreeAttempt",
+            "printedName": "hasFreeAttempt(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC03hasE7Attempt3forSbSi_tF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC03hasE7Attempt3forSbSi_tF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "consumeAttempt",
+            "printedName": "consumeAttempt(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC14consumeAttempt3forSbSi_tF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC14consumeAttempt3forSbSi_tF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetAttempts",
+            "printedName": "resetAttempts(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC05resetF03forySi_tF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC05resetF03forySi_tF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetAllAttempts",
+            "printedName": "resetAllAttempts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC08resetAllF0yyF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC08resetAllF0yyF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "purgeAll",
+            "printedName": "purgeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC8purgeAllyyF",
+            "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC8purgeAllyyF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12Win2GainMyGP0aB19FreeAttemptsManagerC",
+        "mangledName": "$s12Win2GainMyGP0aB19FreeAttemptsManagerC",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "QuartzCore",
         "printedName": "QuartzCore",
         "declKind": "Import",
@@ -17217,6 +17743,809 @@
         "moduleName": "Win2GainMyGP",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Win2GainTokenProvider",
+        "printedName": "Win2GainTokenProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "win2GainRequestToken",
+            "printedName": "win2GainRequestToken(forceRefresh:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(token: Swift.String, expiry: Foundation.Date?), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(token: Swift.String, expiry: Foundation.Date?), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(token: Swift.String, expiry: Foundation.Date?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Date?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Date",
+                                "printedName": "Foundation.Date",
+                                "usr": "s:10Foundation4DateV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB13TokenProviderP04win2b7RequestE012forceRefresh10completionySb_ys6ResultOySS5token_10Foundation4DateVSg6expiryts5Error_pGctF",
+            "mangledName": "$s12Win2GainMyGP0aB13TokenProviderP04win2b7RequestE012forceRefresh10completionySb_ys6ResultOySS5token_10Foundation4DateVSg6expiryts5Error_pGctF",
+            "moduleName": "Win2GainMyGP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.Win2GainTokenProvider>",
+            "sugared_genericSig": "<Self where Self : Win2GainMyGP.Win2GainTokenProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12Win2GainMyGP0aB13TokenProviderP",
+        "mangledName": "$s12Win2GainMyGP0aB13TokenProviderP",
+        "moduleName": "Win2GainMyGP",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Win2GainTokenManager",
+        "printedName": "Win2GainTokenManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Win2GainTokenManager",
+                "printedName": "Win2GainMyGP.Win2GainTokenManager",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC6sharedACvpZ",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC6sharedACvpZ",
+            "moduleName": "Win2GainMyGP",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Win2GainTokenManager",
+                    "printedName": "Win2GainMyGP.Win2GainTokenManager",
+                    "usr": "s:12Win2GainMyGP0aB12TokenManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC6sharedACvgZ",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC6sharedACvgZ",
+                "moduleName": "Win2GainMyGP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Win2GainMyGP.Win2GainTokenProvider)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvp",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Win2GainMyGP.Win2GainTokenProvider)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Win2GainTokenProvider",
+                        "printedName": "any Win2GainMyGP.Win2GainTokenProvider",
+                        "usr": "s:12Win2GainMyGP0aB13TokenProviderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvg",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Win2GainMyGP.Win2GainTokenProvider)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Win2GainTokenProvider",
+                        "printedName": "any Win2GainMyGP.Win2GainTokenProvider",
+                        "usr": "s:12Win2GainMyGP0aB13TokenProviderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvs",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvs",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvM",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC8delegateAA0abE8Provider_pSgvM",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "persistsInKeychain",
+            "printedName": "persistsInKeychain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvp",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvg",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvs",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvs",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvM",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC18persistsInKeychainSbvM",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentToken",
+            "printedName": "currentToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC07currentE0SSSgvp",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC07currentE0SSSgvp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC07currentE0SSSgvg",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC07currentE0SSSgvg",
+                "moduleName": "Win2GainMyGP",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateToken",
+            "printedName": "updateToken(_:expiry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC06updateE0_6expiryySS_10Foundation4DateVSgtF",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC06updateE0_6expiryySS_10Foundation4DateVSgtF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearToken",
+            "printedName": "clearToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC05clearE0yyF",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC05clearE0yyF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenIfNeeded",
+            "printedName": "getTokenIfNeeded(forceRefresh:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC03getE8IfNeeded12forceRefresh10completionySb_ys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC03getE8IfNeeded12forceRefresh10completionySb_ys6ResultOySSs5Error_pGctF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "TokenError",
+            "printedName": "TokenError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "noDelegate",
+                "printedName": "noDelegate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Win2GainMyGP.Win2GainTokenManager.TokenError.Type) -> Win2GainMyGP.Win2GainTokenManager.TokenError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenError",
+                        "printedName": "Win2GainMyGP.Win2GainTokenManager.TokenError",
+                        "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Win2GainMyGP.Win2GainTokenManager.TokenError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TokenError",
+                            "printedName": "Win2GainMyGP.Win2GainTokenManager.TokenError",
+                            "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO10noDelegateyA2EmF",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO10noDelegateyA2EmF",
+                "moduleName": "Win2GainMyGP"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "Win2GainMyGP.Win2GainTokenManager.TokenError",
+                    "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenError",
+                    "printedName": "Win2GainMyGP.Win2GainTokenManager.TokenError",
+                    "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "Win2GainMyGP",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO9hashValueSivp",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO9hashValueSivp",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO9hashValueSivg",
+                    "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO9hashValueSivg",
+                    "moduleName": "Win2GainMyGP",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12Win2GainMyGP0aB12TokenManagerC0E5ErrorO",
+            "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC0E5ErrorO",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12Win2GainMyGP0aB12TokenManagerC",
+        "mangledName": "$s12Win2GainMyGP0aB12TokenManagerC",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -24910,6 +26239,23 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "QuartzCore",
         "printedName": "QuartzCore",
         "declKind": "Import",
@@ -27878,8 +29224,8 @@
           },
           {
             "kind": "Function",
-            "name": "load",
-            "printedName": "load(_:into:placeholder:cacheKey:ignoreURLCache:)",
+            "name": "setImage",
+            "printedName": "setImage(_:into:placeholder:cacheKey:ignoreURLCache:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27946,8 +29292,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12Win2GainMyGP11ImageLoaderC4load_4into11placeholder8cacheKey14ignoreURLCacheSo20NSURLSessionDataTaskCSg10Foundation3URLV_So11UIImageViewCSo0S0CSgSSSgSbtF",
-            "mangledName": "$s12Win2GainMyGP11ImageLoaderC4load_4into11placeholder8cacheKey14ignoreURLCacheSo20NSURLSessionDataTaskCSg10Foundation3URLV_So11UIImageViewCSo0S0CSgSSSgSbtF",
+            "usr": "s:12Win2GainMyGP11ImageLoaderC03setE0_4into11placeholder8cacheKey14ignoreURLCacheSo20NSURLSessionDataTaskCSg10Foundation3URLV_So11UIImageViewCSo0S0CSgSSSgSbtF",
+            "mangledName": "$s12Win2GainMyGP11ImageLoaderC03setE0_4into11placeholder8cacheKey14ignoreURLCacheSo20NSURLSessionDataTaskCSg10Foundation3URLV_So11UIImageViewCSo0S0CSgSSSgSbtF",
             "moduleName": "Win2GainMyGP",
             "declAttributes": [
               "Final",
@@ -28000,6 +29346,65 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Win2GainTabBarEventDelegate",
+        "printedName": "Win2GainTabBarEventDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "win2GainScreenStatus",
+            "printedName": "win2GainScreenStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19TabBarEventDelegateP04win2B12ScreenStatusyySbF",
+            "mangledName": "$s12Win2GainMyGP0aB19TabBarEventDelegateP04win2B12ScreenStatusyySbF",
+            "moduleName": "Win2GainMyGP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.Win2GainTabBarEventDelegate>",
+            "sugared_genericSig": "<Self where Self : Win2GainMyGP.Win2GainTabBarEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12Win2GainMyGP0aB19TabBarEventDelegateP",
+        "mangledName": "$s12Win2GainMyGP0aB19TabBarEventDelegateP",
+        "moduleName": "Win2GainMyGP",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -31214,11 +32619,11 @@
       "value": "\"Button\""
     },
     {
-      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Cell\/Win2GainGPCollectionViewCell.swift",
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Cell\/Win2GainCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 432,
-      "length": 30,
-      "value": "\"Win2GainGPCollectionViewCell\""
+      "offset": 446,
+      "length": 28,
+      "value": "\"Win2GainCollectionViewCell\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIFont+Extension.swift",
@@ -31272,7 +32677,7 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeCell.swift",
       "kind": "StringLiteral",
-      "offset": 4902,
+      "offset": 396,
       "length": 15,
       "value": "\"TicTacToeCell\""
     },
@@ -31356,168 +32761,147 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 1053,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1091,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1192,
+      "offset": 1152,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1234,
+      "offset": 1194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1422,
+      "offset": 1382,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1515,
+      "offset": 1473,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1551,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1721,
+      "offset": 1641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1782,
+      "offset": 1702,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1971,
+      "offset": 1891,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2161,
+      "offset": 2081,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2170,
+      "offset": 2090,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2181,
+      "offset": 2101,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2191,
+      "offset": 2111,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2249,
+      "offset": 2169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2293,
+      "offset": 2211,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2329,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2515,
+      "offset": 2395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2731,
+      "offset": 2611,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2638,
       "length": 5,
       "value": "\"ー\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "FloatLiteral",
-      "offset": 2817,
+      "offset": 2697,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2966,
+      "offset": 2846,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3128,
+      "offset": 3008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/PlayerInfoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3139,
       "length": 2,
       "value": "12"
     },
@@ -31629,140 +33013,140 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "FloatLiteral",
-      "offset": 8083,
+      "offset": 8047,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "StringLiteral",
-      "offset": 10623,
+      "offset": 10587,
       "length": 23,
       "value": "\"SpellingTableViewCell\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1297,
+      "offset": 1296,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1333,
+      "offset": 1332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1394,
+      "offset": 1393,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1570,
+      "offset": 1569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1630,
+      "offset": 1629,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1739,
+      "offset": 1738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1979,
+      "offset": 1978,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2096,
+      "offset": 2095,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2302,
+      "offset": 2301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2360,
+      "offset": 2359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2369,
+      "offset": 2368,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2380,
+      "offset": 2379,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2390,
+      "offset": 2389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2448,
+      "offset": 2447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2481,
+      "offset": 2480,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2784,
+      "offset": 2783,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2852,
+      "offset": 2851,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2902,
+      "offset": 2901,
       "length": 1,
       "value": "3"
     },
@@ -31776,63 +33160,63 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1023,
+      "offset": 1043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1102,
+      "offset": 1126,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1137,
+      "offset": 1161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1337,
+      "offset": 1369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1382,
+      "offset": 1414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1488,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "Array",
-      "offset": 1496,
+      "offset": 1532,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "Array",
-      "offset": 1556,
+      "offset": 1592,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/ImageMatchingView.swift",
       "kind": "Array",
-      "offset": 1614,
+      "offset": 1650,
       "length": 6,
       "value": "[0, 1]"
     },
@@ -31895,14 +33279,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ViewComponents\/WinGameResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5481,
+      "offset": 5735,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ViewComponents\/WinGameResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5484,
+      "offset": 5738,
       "length": 1,
       "value": "0"
     },
@@ -31930,9 +33314,9 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/ViewModel\/WinGameViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 391,
-      "length": 47,
-      "value": "\"https:\/\/api.win2gain.com\/api\/GP\/GPHomeContent\""
+      "offset": 474,
+      "length": 53,
+      "value": "\"https:\/\/mygp-home.win2gain.com\/api\/GP\/GPHomeContent\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Library\/Lottie\/Sources\/Private\/MainThread\/NodeRenderSystem\/Nodes\/OutputNodes\/PathOutputNode.swift",
@@ -33153,6 +34537,27 @@
       "value": "true"
     },
     {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2Ga\u001CinFreeAttemptsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 29,
+      "value": "\"com.win.sdk.freeAttempts.v1\""
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2Ga\u001CinFreeAttemptsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 26,
+      "value": "\"com.win.sdk.freeAttempts\""
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2Ga\u001CinFreeAttemptsManager.swift",
+      "kind": "Dictionary",
+      "offset": 1077,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Library\/Lottie\/Sources\/Private\/Model\/ShapeItems\/ShapeTransform.swift",
       "kind": "StringLiteral",
       "offset": 4398,
@@ -33788,6 +35193,27 @@
       "offset": 1011,
       "length": 7,
       "value": "\"refId\""
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainTokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainTokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainTokenManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3965,
+      "length": 20,
+      "value": "\"com.win2gain.token\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Library\/Lottie\/Sources\/Private\/Model\/ShapeItems\/Group.swift",
@@ -35017,14 +36443,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/ImageLoader.swift",
       "kind": "StringLiteral",
-      "offset": 2285,
+      "offset": 2289,
       "length": 19,
       "value": "\"imageloader.token\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/ImageLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 3179,
+      "offset": 3187,
       "length": 4,
       "value": "true"
     },
@@ -35146,6 +36572,13 @@
       "offset": 8102,
       "length": 2,
       "value": "40"
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIView+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10997,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/ViewModel\/ImageMatchingViewModel.swift",

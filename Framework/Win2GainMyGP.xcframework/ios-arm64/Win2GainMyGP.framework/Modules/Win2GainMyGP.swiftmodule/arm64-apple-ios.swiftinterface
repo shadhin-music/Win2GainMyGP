@@ -8,6 +8,7 @@ import CoreText
 import DeveloperToolsSupport
 import Foundation
 import QuartzCore
+import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -15,7 +16,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class Win2GainGPCollectionViewCell : UIKit.UICollectionViewCell {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class Win2GainCollectionViewCell : UIKit.UICollectionViewCell {
   @_Concurrency.MainActor @preconcurrency public static let identifier: Swift.String
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   #if compiler(>=5.3) && $NonescapableTypes
@@ -591,6 +592,26 @@ public struct Vector3D : Swift.Hashable {
     get
   }
 }
+public struct WinGameAttempts : Swift.Codable, Swift.Equatable {
+  public let max: Swift.Int
+  public var remaining: Swift.Int
+  public static func == (a: Win2GainMyGP.WinGameAttempts, b: Win2GainMyGP.WinGameAttempts) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class Win2GainFreeAttemptsManager {
+  public static let shared: Win2GainMyGP.Win2GainFreeAttemptsManager
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func attempts(for gameId: Swift.Int) -> Win2GainMyGP.WinGameAttempts?
+  #endif
+  final public func hasFreeAttempt(for gameId: Swift.Int) -> Swift.Bool
+  @discardableResult
+  final public func consumeAttempt(for gameId: Swift.Int) -> Swift.Bool
+  final public func resetAttempts(for gameId: Swift.Int)
+  final public func resetAllAttempts()
+  final public func purgeAll()
+  @objc deinit
+}
 public enum LayerType : Swift.Int, Swift.Codable {
   case precomp
   case solid
@@ -668,6 +689,40 @@ extension Win2GainMyGP.Color : Swift.Codable {
 }
 extension QuartzCore.CALayer {
   @nonobjc public func logLayerTree(withIndent: Swift.Int = 0)
+}
+public protocol Win2GainTokenProvider : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func win2GainRequestToken(forceRefresh: Swift.Bool, completion: @escaping (Swift.Result<(token: Swift.String, expiry: Foundation.Date?), any Swift.Error>) -> Swift.Void)
+  #endif
+}
+@_hasMissingDesignatedInitializers final public class Win2GainTokenManager {
+  public static let shared: Win2GainMyGP.Win2GainTokenManager
+  weak final public var delegate: (any Win2GainMyGP.Win2GainTokenProvider)?
+  final public var persistsInKeychain: Swift.Bool {
+    get
+    set
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var currentToken: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func updateToken(_ token: Swift.String, expiry: Foundation.Date? = nil)
+  #endif
+  final public func clearToken()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func getTokenIfNeeded(forceRefresh: Swift.Bool = false, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  #endif
+  public enum TokenError : Swift.Error {
+    case noDelegate
+    public static func == (a: Win2GainMyGP.Win2GainTokenManager.TokenError, b: Win2GainMyGP.Win2GainTokenManager.TokenError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
 }
 extension Win2GainMyGP.Animation {
   public typealias DownloadClosure = (Win2GainMyGP.Animation?) -> Swift.Void
@@ -1074,9 +1129,12 @@ public enum DecodingStrategy : Swift.Hashable {
   final public func cancel(for imageView: UIKit.UIImageView)
   #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
-  final public func load(_ url: Foundation.URL, into imageView: UIKit.UIImageView, placeholder: UIKit.UIImage? = nil, cacheKey: Swift.String? = nil, ignoreURLCache: Swift.Bool = true) -> Foundation.URLSessionDataTask?
+  final public func setImage(_ url: Foundation.URL, into imageView: UIKit.UIImageView, placeholder: UIKit.UIImage? = nil, cacheKey: Swift.String? = nil, ignoreURLCache: Swift.Bool = true) -> Foundation.URLSessionDataTask?
   #endif
   @objc deinit
+}
+public protocol Win2GainTabBarEventDelegate : AnyObject {
+  func win2GainScreenStatus(_ isFullScreen: Swift.Bool)
 }
 extension Win2GainMyGP.MissingLetterButton.StateStyle : Swift.Equatable {}
 extension Win2GainMyGP.MissingLetterButton.StateStyle : Swift.Hashable {}
@@ -1100,6 +1158,8 @@ extension Win2GainMyGP.MatteType : Swift.RawRepresentable {}
 extension Win2GainMyGP.BlendMode : Swift.Equatable {}
 extension Win2GainMyGP.BlendMode : Swift.Hashable {}
 extension Win2GainMyGP.BlendMode : Swift.RawRepresentable {}
+extension Win2GainMyGP.Win2GainTokenManager.TokenError : Swift.Equatable {}
+extension Win2GainMyGP.Win2GainTokenManager.TokenError : Swift.Hashable {}
 extension Win2GainMyGP.PointValueProvider : Win2GainMyGP.AnyValueProvider {}
 extension Win2GainMyGP.ColorValueProvider : Win2GainMyGP.AnyValueProvider {}
 extension Win2GainMyGP.FloatValueProvider : Win2GainMyGP.AnyValueProvider {}
