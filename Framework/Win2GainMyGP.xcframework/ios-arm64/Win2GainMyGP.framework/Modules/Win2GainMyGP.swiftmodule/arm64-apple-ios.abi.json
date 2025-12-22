@@ -2970,6 +2970,7 @@
           "Custom",
           "Final",
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIButton",
@@ -17251,6 +17252,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -27453,6 +27464,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -33013,14 +33034,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "FloatLiteral",
-      "offset": 8047,
+      "offset": 8095,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "StringLiteral",
-      "offset": 10587,
+      "offset": 10635,
       "length": 23,
       "value": "\"SpellingTableViewCell\""
     },
@@ -33230,9 +33251,16 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainHomeViewController.swift",
       "kind": "Array",
-      "offset": 1641,
+      "offset": 1016,
       "length": 13,
       "value": "[11, 1, 2, 8]"
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainHomeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1073,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/Button+Extensions.swift",
@@ -33272,21 +33300,21 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ViewComponents\/WinGameResultView.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 342,
       "length": 19,
       "value": "\"WinGameResultView\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ViewComponents\/WinGameResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5735,
+      "offset": 5713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ViewComponents\/WinGameResultView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5738,
+      "offset": 5716,
       "length": 1,
       "value": "0"
     },
@@ -36441,6 +36469,20 @@
       "value": "1"
     },
     {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainAttemptStore.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 27,
+      "value": "\"com.win2gain.attemptStore\""
+    },
+    {
+      "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainAttemptStore.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 29,
+      "value": "\"win2gain.freeAttempts.index\""
+    },
+    {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/ImageLoader.swift",
       "kind": "StringLiteral",
       "offset": 2289,
@@ -36667,35 +36709,42 @@
     {
       "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2104,
+      "offset": 2109,
+      "length": 21,
+      "value": "\"win_checkmarkDouble\""
+    },
+    {
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
       "length": 19,
       "value": "\"win_chevron.right\""
     },
     {
       "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2248,
+      "offset": 2416,
       "length": 10,
       "value": "\"win_logo\""
     },
     {
       "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2387,
+      "offset": 2555,
       "length": 12,
       "value": "\"win_others\""
     },
     {
       "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2717,
       "length": 23,
       "value": "\"win_result_background\""
     },
     {
       "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 2867,
       "length": 11,
       "value": "\"win_xmark\""
     }
