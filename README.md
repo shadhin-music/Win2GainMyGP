@@ -79,9 +79,9 @@ extension AppDelegate: Win2GainTabBarEventDelegate {
 
 ## 📬 Support
 
--   Email: abir@cloud7bd.com
--   Email: mdabirhossain-dev@gmail.com
--   Phone: +8801521717367
+- Email: abir@cloud7bd.com
+- Email: mdabirhossain-dev@gmail.com
+- Phone: [+880 1521-717-367](tel:+8801521717367)
 
 ## 📄 License
 
