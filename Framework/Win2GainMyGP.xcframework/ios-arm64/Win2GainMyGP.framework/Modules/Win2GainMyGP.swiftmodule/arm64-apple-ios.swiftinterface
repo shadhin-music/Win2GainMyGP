@@ -2,7 +2,6 @@
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Win2GainMyGP
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
-import CoreFoundation
 import CoreGraphics
 import CoreText
 import DeveloperToolsSupport
@@ -438,6 +437,35 @@ extension Win2GainMyGP.LottieLoopMode : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency final public func frameTime(forMarker named: Swift.String) -> Win2GainMyGP.AnimationFrameTime?
   #endif
   @objc deinit
+}
+final public class GameEventDispatcher {
+  public static let shared: Win2GainMyGP.GameEventDispatcher
+  public init()
+  weak final public var delegate: (any Win2GainMyGP.GameEventDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func startGame(gameName: Swift.String?)
+  #endif
+  @objc deinit
+}
+public protocol GameEventDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func gameEventStatus(gameName: Swift.String, reason: Win2GainMyGP.GameEvent?)
+  #endif
+}
+public enum GameEvent {
+  case seeAll
+  case closedByUser
+  case goBackFromGameResult
+  case playMoreFromGameResult
+  case goBackFromLimitOver
+  case playMoreFromLimitOver
+  case finished
+  case homeFromLimitOver
+  public static func == (a: Win2GainMyGP.GameEvent, b: Win2GainMyGP.GameEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public protocol Interpolatable : Win2GainMyGP.AnyInterpolatable {
   func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
@@ -1053,6 +1081,9 @@ final public class Animation : Swift.Codable {
 }
 infix operator +| : DefaultPrecedence
 infix operator +- : DefaultPrecedence
+@_hasMissingDesignatedInitializers final public class Win2GainAttemptStore {
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AnimationViewBase : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
     @objc get
@@ -1146,6 +1177,8 @@ extension Win2GainMyGP.ToastType : Swift.Equatable {}
 extension Win2GainMyGP.ToastType : Swift.Hashable {}
 extension Win2GainMyGP.LottieBackgroundBehavior : Swift.Equatable {}
 extension Win2GainMyGP.LottieBackgroundBehavior : Swift.Hashable {}
+extension Win2GainMyGP.GameEvent : Swift.Equatable {}
+extension Win2GainMyGP.GameEvent : Swift.Hashable {}
 extension Win2GainMyGP.SizeValueProvider : Win2GainMyGP.AnyValueProvider {}
 extension Win2GainMyGP.AnimatedSwitch.CancelBehavior : Swift.Equatable {}
 extension Win2GainMyGP.AnimatedSwitch.CancelBehavior : Swift.Hashable {}

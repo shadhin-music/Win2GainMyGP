@@ -2970,7 +2970,6 @@
           "Custom",
           "Final",
           "AccessControl",
-          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIButton",
@@ -6764,6 +6763,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -12069,6 +12078,786 @@
         "printedName": "QuartzCore",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEventDispatcher",
+        "printedName": "GameEventDispatcher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEventDispatcher",
+                "printedName": "Win2GainMyGP.GameEventDispatcher",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherC6sharedACvpZ",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC6sharedACvpZ",
+            "moduleName": "Win2GainMyGP",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEventDispatcher",
+                    "printedName": "Win2GainMyGP.GameEventDispatcher",
+                    "usr": "s:12Win2GainMyGP19GameEventDispatcherC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC6sharedACvgZ",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC6sharedACvgZ",
+                "moduleName": "Win2GainMyGP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEventDispatcher",
+                "printedName": "Win2GainMyGP.GameEventDispatcher",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherCACycfc",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherCACycfc",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Win2GainMyGP.GameEventDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvp",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvp",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Win2GainMyGP.GameEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEventDelegate",
+                        "printedName": "any Win2GainMyGP.GameEventDelegate",
+                        "usr": "s:12Win2GainMyGP17GameEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvg",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Win2GainMyGP.GameEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEventDelegate",
+                        "printedName": "any Win2GainMyGP.GameEventDelegate",
+                        "usr": "s:12Win2GainMyGP17GameEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvs",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvs",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvM",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvM",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startGame",
+            "printedName": "startGame(gameName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherC05startE08gameNameySSSg_tF",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC05startE08gameNameySSSg_tF",
+            "moduleName": "Win2GainMyGP",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12Win2GainMyGP19GameEventDispatcherC",
+        "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEventDelegate",
+        "printedName": "GameEventDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gameEventStatus",
+            "printedName": "gameEventStatus(gameName:reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Win2GainMyGP.GameEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name6reasonySS_AA0eF0OSgtF",
+            "mangledName": "$s12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name6reasonySS_AA0eF0OSgtF",
+            "moduleName": "Win2GainMyGP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.GameEventDelegate>",
+            "sugared_genericSig": "<Self where Self : Win2GainMyGP.GameEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12Win2GainMyGP17GameEventDelegateP",
+        "mangledName": "$s12Win2GainMyGP17GameEventDelegateP",
+        "moduleName": "Win2GainMyGP",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEvent",
+        "printedName": "GameEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "seeAll",
+            "printedName": "seeAll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO6seeAllyA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO6seeAllyA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "closedByUser",
+            "printedName": "closedByUser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO12closedByUseryA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO12closedByUseryA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "goBackFromGameResult",
+            "printedName": "goBackFromGameResult",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO010goBackFromE6ResultyA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO010goBackFromE6ResultyA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "playMoreFromGameResult",
+            "printedName": "playMoreFromGameResult",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO012playMoreFromE6ResultyA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO012playMoreFromE6ResultyA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "goBackFromLimitOver",
+            "printedName": "goBackFromLimitOver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO19goBackFromLimitOveryA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO19goBackFromLimitOveryA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "playMoreFromLimitOver",
+            "printedName": "playMoreFromLimitOver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO21playMoreFromLimitOveryA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO21playMoreFromLimitOveryA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "finished",
+            "printedName": "finished",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO8finishedyA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO8finishedyA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Var",
+            "name": "homeFromLimitOver",
+            "printedName": "homeFromLimitOver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Win2GainMyGP.GameEvent.Type) -> Win2GainMyGP.GameEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEvent",
+                    "printedName": "Win2GainMyGP.GameEvent",
+                    "usr": "s:12Win2GainMyGP9GameEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Win2GainMyGP.GameEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEvent",
+                        "printedName": "Win2GainMyGP.GameEvent",
+                        "usr": "s:12Win2GainMyGP9GameEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12Win2GainMyGP9GameEventO17homeFromLimitOveryA2CmF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO17homeFromLimitOveryA2CmF",
+            "moduleName": "Win2GainMyGP"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEvent",
+                "printedName": "Win2GainMyGP.GameEvent",
+                "usr": "s:12Win2GainMyGP9GameEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEvent",
+                "printedName": "Win2GainMyGP.GameEvent",
+                "usr": "s:12Win2GainMyGP9GameEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP9GameEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12Win2GainMyGP9GameEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "Win2GainMyGP",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12Win2GainMyGP9GameEventO9hashValueSivp",
+            "mangledName": "$s12Win2GainMyGP9GameEventO9hashValueSivp",
+            "moduleName": "Win2GainMyGP",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12Win2GainMyGP9GameEventO9hashValueSivg",
+                "mangledName": "$s12Win2GainMyGP9GameEventO9hashValueSivg",
+                "moduleName": "Win2GainMyGP",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP9GameEventO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12Win2GainMyGP9GameEventO4hash4intoys6HasherVz_tF",
+            "moduleName": "Win2GainMyGP",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12Win2GainMyGP9GameEventO",
+        "mangledName": "$s12Win2GainMyGP9GameEventO",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -27473,6 +28262,36 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Win2GainAttemptStore",
+        "printedName": "Win2GainAttemptStore",
+        "declKind": "Class",
+        "usr": "s:12Win2GainMyGP0aB12AttemptStoreC",
+        "mangledName": "$s12Win2GainMyGP0aB12AttemptStoreC",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
@@ -33251,14 +34070,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainHomeViewController.swift",
       "kind": "Array",
-      "offset": 1016,
+      "offset": 1008,
       "length": 13,
       "value": "[11, 1, 2, 8]"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainHomeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1073,
+      "offset": 1065,
       "length": 5,
       "value": "false"
     },
@@ -33881,7 +34700,7 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Library\/Lottie\/Sources\/Public\/Keyframes\/Keyframe.swift",
       "kind": "BooleanLiteral",
-      "offset": 784,
+      "offset": 804,
       "length": 5,
       "value": "false"
     },
@@ -36471,14 +37290,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainAttemptStore.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 516,
       "length": 27,
       "value": "\"com.win2gain.attemptStore\""
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Helper\/Win2GainAttemptStore.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 650,
       "length": 29,
       "value": "\"win2gain.freeAttempts.index\""
     },
@@ -36611,14 +37430,14 @@
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIView+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 8102,
+      "offset": 5855,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Volumes\/Common Files\/Projects\/SDK\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIView+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 10997,
+      "offset": 8488,
       "length": 1,
       "value": "0"
     },
@@ -36637,112 +37456,112 @@
       "value": "\"https:\/\/mygp-home.win2gain.com\/api\/MixAndMatch\/GetQuestionsForMixMatchGp\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 8,
       "value": "\"wcBlue\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 752,
       "length": 9,
       "value": "\"wcGreen\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 893,
       "length": 13,
       "value": "\"wcGreenLite\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1032,
       "length": 10,
       "value": "\"wcOrange\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 8,
       "value": "\"wcPink\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1302,
       "length": 12,
       "value": "\"wcPinkLite\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1440,
       "length": 10,
       "value": "\"wcVelvet\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1675,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1804,
       "length": 8,
       "value": "\"nought\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1947,
       "length": 15,
       "value": "\"win_checkmark\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2109,
       "length": 21,
       "value": "\"win_checkmarkDouble\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2272,
       "length": 19,
       "value": "\"win_chevron.right\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2416,
       "length": 10,
       "value": "\"win_logo\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2555,
       "length": 12,
       "value": "\"win_others\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2717,
       "length": 23,
       "value": "\"win_result_background\""
     },
     {
-      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win-gpSDK-iOS\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/mah\/Library\/Developer\/Xcode\/DerivedData\/Win2GainMyGP-gfverhckdtagdlcbtdmrxlcjtpfw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Win2GainMyGP\/IntermediateBuildFilesPath\/Win2GainMyGP.build\/Release-iphoneos\/Win2GainMyGP.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2867,
       "length": 11,
