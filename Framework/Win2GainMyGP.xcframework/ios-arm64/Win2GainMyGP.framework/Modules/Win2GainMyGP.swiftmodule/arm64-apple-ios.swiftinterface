@@ -449,21 +449,25 @@ final public class GameEventDispatcher {
 }
 public protocol GameEventDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
-  func gameEventStatus(gameName: Swift.String, reason: Win2GainMyGP.GameEvent?)
+  func gameEventStatus(gameName: Swift.String, activity: Win2GainMyGP.GameEvent?)
   #endif
 }
-public enum GameEvent {
-  case seeAll
-  case closedByUser
-  case goBackFromGameResult
-  case playMoreFromGameResult
-  case goBackFromLimitOver
-  case playMoreFromLimitOver
-  case finished
-  case homeFromLimitOver
-  public static func == (a: Win2GainMyGP.GameEvent, b: Win2GainMyGP.GameEvent) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum GameEvent : Swift.String, Swift.Codable {
+  case SEEAll
+  case CLOSE_BY_USER
+  case GO_BACK_FROM_GAME_RESULT
+  case PLAY_MORE_FROM_GAME_RESULT
+  case GO_BACK_FROM_LIMITOVER
+  case PLAY_MORE_FROM_LIMITOVER
+  case FINISHED
+  case HOME_FROM_LIMITOVER
+  case START, GAME_TERMINATE, GAME_OVER
+  case NAVIGATE_BACK
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -723,9 +727,15 @@ public protocol Win2GainTokenProvider : AnyObject {
   func win2GainRequestToken(forceRefresh: Swift.Bool, completion: @escaping (Swift.Result<(token: Swift.String, expiry: Foundation.Date?), any Swift.Error>) -> Swift.Void)
   #endif
 }
+public protocol Win2GainRefreshTokenProvider : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func win2GainRequestRefreshToken(completion: @escaping (Swift.Result<(token: Swift.String, expiry: Foundation.Date?), any Swift.Error>) -> Swift.Void)
+  #endif
+}
 @_hasMissingDesignatedInitializers final public class Win2GainTokenManager {
   public static let shared: Win2GainMyGP.Win2GainTokenManager
-  weak final public var delegate: (any Win2GainMyGP.Win2GainTokenProvider)?
+  weak final public var tokenProviderDelegate: (any Win2GainMyGP.Win2GainTokenProvider)?
+  weak final public var refreshTokenProviderDelegate: (any Win2GainMyGP.Win2GainRefreshTokenProvider)?
   final public var persistsInKeychain: Swift.Bool {
     get
     set
@@ -738,9 +748,15 @@ public protocol Win2GainTokenProvider : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   final public func updateToken(_ token: Swift.String, expiry: Foundation.Date? = nil)
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func composeURL(baseURL: Swift.String, token: Swift.String, src: Swift.String = "MYGP", client: Swift.Int = 16) -> Foundation.URL?
+  #endif
   final public func clearToken()
   #if compiler(>=5.3) && $NonescapableTypes
   final public func getTokenIfNeeded(forceRefresh: Swift.Bool = false, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func getTokenUsingRefreshToken(completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   #endif
   public enum TokenError : Swift.Error {
     case noDelegate
@@ -1179,6 +1195,7 @@ extension Win2GainMyGP.LottieBackgroundBehavior : Swift.Equatable {}
 extension Win2GainMyGP.LottieBackgroundBehavior : Swift.Hashable {}
 extension Win2GainMyGP.GameEvent : Swift.Equatable {}
 extension Win2GainMyGP.GameEvent : Swift.Hashable {}
+extension Win2GainMyGP.GameEvent : Swift.RawRepresentable {}
 extension Win2GainMyGP.SizeValueProvider : Win2GainMyGP.AnyValueProvider {}
 extension Win2GainMyGP.AnimatedSwitch.CancelBehavior : Swift.Equatable {}
 extension Win2GainMyGP.AnimatedSwitch.CancelBehavior : Swift.Hashable {}
