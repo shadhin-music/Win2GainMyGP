@@ -441,7 +441,7 @@ extension Win2GainMyGP.LottieLoopMode : Swift.Equatable {
 final public class GameEventDispatcher {
   public static let shared: Win2GainMyGP.GameEventDispatcher
   public init()
-  weak final public var delegate: (any Win2GainMyGP.GameEventDelegate)?
+  weak final public var gameEventDelegate: (any Win2GainMyGP.GameEventDelegate)?
   #if compiler(>=5.3) && $NonescapableTypes
   final public func startGame(gameName: Swift.String?)
   #endif

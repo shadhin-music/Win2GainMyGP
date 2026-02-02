@@ -12175,8 +12175,8 @@
           },
           {
             "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
+            "name": "gameEventDelegate",
+            "printedName": "gameEventDelegate",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12185,8 +12185,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvp",
-            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvp",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvp",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvp",
             "moduleName": "Win2GainMyGP",
             "declAttributes": [
               "HasInitialValue",
@@ -12219,8 +12219,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvg",
-                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvg",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvg",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvg",
                 "moduleName": "Win2GainMyGP",
                 "implicit": true,
                 "declAttributes": [
@@ -12254,8 +12254,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvs",
-                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvs",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvs",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvs",
                 "moduleName": "Win2GainMyGP",
                 "implicit": true,
                 "declAttributes": [
@@ -12275,8 +12275,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvM",
-                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC8delegateAA0eF8Delegate_pSgvM",
+                "usr": "s:12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvM",
+                "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC04gameF8DelegateAA0efI0_pSgvM",
                 "moduleName": "Win2GainMyGP",
                 "implicit": true,
                 "declAttributes": [
