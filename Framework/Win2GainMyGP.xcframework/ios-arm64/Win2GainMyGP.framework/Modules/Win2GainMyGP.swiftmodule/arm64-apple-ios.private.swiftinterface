@@ -57,13 +57,13 @@ final public class GameEventDispatcher {
   public init()
   weak final public var gameEventDelegate: (any Win2GainMyGP.GameEventDelegate)?
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func startGame(gameName: Swift.String?, activity: Win2GainMyGP.GameEvent)
+  final public func startGame(gameName: Swift.String?, gameCategoryType: Swift.String?, activity: Win2GainMyGP.GameEvent)
   #endif
   @objc deinit
 }
 public protocol GameEventDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
-  func gameEventStatus(gameName: Swift.String, activity: Win2GainMyGP.GameEvent?)
+  func gameEventStatus(gameName: Swift.String, gameType: Swift.String?, activity: Win2GainMyGP.GameEvent?)
   #endif
 }
 public enum GameEvent : Swift.String, Swift.Codable {

@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Win2GainMyGP'
-  s.version               = '1.1.1'
+  s.version               = '1.1.2'
   s.summary               = 'Sample Spec'
   s.homepage              = 'https://github.com/shadhin-music/Win2GainMyGP'
 
-  s.author                = { 'Md Abir Hossain' => 'motalab@cloud7bd.com' }
+  s.author                = { 'Md Abir Hossain' => 'mdabirhossain.dev@gmail.com' }
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
 
   # You can remove s.platform if you want; this is fine:

@@ -1462,12 +1462,26 @@
           {
             "kind": "Function",
             "name": "startGame",
-            "printedName": "startGame(gameName:activity:)",
+            "printedName": "startGame(gameName:gameCategoryType:activity:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1491,8 +1505,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12Win2GainMyGP19GameEventDispatcherC05startE08gameName8activityySSSg_AA0eF0OtF",
-            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC05startE08gameName8activityySSSg_AA0eF0OtF",
+            "usr": "s:12Win2GainMyGP19GameEventDispatcherC05startE08gameName0I12CategoryType8activityySSSg_AhA0eF0OtF",
+            "mangledName": "$s12Win2GainMyGP19GameEventDispatcherC05startE08gameName0I12CategoryType8activityySSSg_AhA0eF0OtF",
             "moduleName": "Win2GainMyGP",
             "declAttributes": [
               "Final",
@@ -1544,7 +1558,7 @@
           {
             "kind": "Function",
             "name": "gameEventStatus",
-            "printedName": "gameEventStatus(gameName:activity:)",
+            "printedName": "gameEventStatus(gameName:gameType:activity:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1556,6 +1570,20 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1573,8 +1601,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name8activityySS_AA0eF0OSgtF",
-            "mangledName": "$s12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name8activityySS_AA0eF0OSgtF",
+            "usr": "s:12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name0H4Type8activityySS_SSSgAA0eF0OSgtF",
+            "mangledName": "$s12Win2GainMyGP17GameEventDelegateP04gameF6Status0H4Name0H4Type8activityySS_SSSgAA0eF0OSgtF",
             "moduleName": "Win2GainMyGP",
             "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.GameEventDelegate>",
             "sugared_genericSig": "<Self where Self : Win2GainMyGP.GameEventDelegate>",
@@ -4409,6 +4437,16 @@
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Win2GainMyGP",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -34139,71 +34177,99 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 648,
       "length": 62,
       "value": "\"WIN games are currently unavailable. Please try again later.\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 623,
+      "offset": 771,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 731,
+      "offset": 879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 791,
+      "offset": 939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 1085,
       "length": 11,
       "value": "\"Try Again\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1186,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1172,
+      "offset": 1320,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1234,
+      "offset": 1382,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
+      "length": 5,
+      "value": "\"✕\""
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1633,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1460,
+      "offset": 1992,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1574,
+      "offset": 2106,
       "length": 5,
       "value": "false"
     },
@@ -34595,7 +34661,7 @@
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/MissingLetterView.swift",
       "kind": "FloatLiteral",
-      "offset": 11620,
+      "offset": 11781,
       "length": 3,
       "value": "0.9"
     },
@@ -34658,14 +34724,14 @@
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "FloatLiteral",
-      "offset": 11192,
+      "offset": 11382,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/ProgramaticCell\/SpelligView.swift",
       "kind": "StringLiteral",
-      "offset": 13798,
+      "offset": 14154,
       "length": 23,
       "value": "\"SpellingTableViewCell\""
     },
@@ -34791,14 +34857,14 @@
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/TicTacToe\/TicTacToeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2901,
+      "offset": 2925,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Cell\/GameButtonCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 535,
       "length": 30,
       "value": "\"GameButtonCollectionViewCell\""
     },
@@ -34867,10 +34933,17 @@
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIImageView+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 389,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 2423,
+      "length": 17,
+      "value": "\"currentImageURL\""
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/Extensions\/UIImageView+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2470,
+      "length": 13,
+      "value": "\"currentTask\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Cell\/HeaderCollectionViewCell.swift",
