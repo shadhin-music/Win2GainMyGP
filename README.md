@@ -35,9 +35,24 @@ seamless integration inside the MyGP ecosystem.
 
 ## 📦 Installation
 
+CocoaPods
 ``` ruby
 pod 'Win2GainMyGP'
 ```
+Swift Package Manager
+➤ Using Xcode
+1. Open your project in Xcode
+2. Go to:
+    File → Add Packages…
+3. Enter
+``` ruby
+https://github.com/shadhin-music/Win2GainMyGP
+```
+4. Select
+``` ruby
+Up to Next Major (e.g. 1.1.4)
+```
+5. Click Add Package
 
 ## ⚡ Quick Start
 
