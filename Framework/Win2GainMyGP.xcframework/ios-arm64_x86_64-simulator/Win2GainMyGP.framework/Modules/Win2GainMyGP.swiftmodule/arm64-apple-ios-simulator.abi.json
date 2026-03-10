@@ -34178,98 +34178,98 @@
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 408,
+      "offset": 407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "StringLiteral",
-      "offset": 648,
-      "length": 62,
-      "value": "\"WIN games are currently unavailable. Please try again later.\""
+      "offset": 595,
+      "length": 93,
+      "value": "\"Internet needed to play WIN games. Buy an internet offer or connect to Wi-Fi and try again.\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 771,
+      "offset": 750,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 879,
+      "offset": 858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
+      "offset": 918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1064,
       "length": 11,
       "value": "\"Try Again\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1186,
+      "offset": 1165,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1299,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1382,
+      "offset": 1361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "StringLiteral",
-      "offset": 1534,
+      "offset": 1505,
       "length": 5,
       "value": "\"✕\""
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1633,
+      "offset": 1600,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1758,
+      "offset": 1717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1992,
+      "offset": 1943,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/WinUnavailableView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2106,
+      "offset": 2057,
       "length": 5,
       "value": "false"
     },
