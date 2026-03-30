@@ -30866,8 +30866,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP",
         "declAttributes": [
@@ -30876,15 +30876,15 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP"
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "Win2GainMyGP"
       },
@@ -30913,6 +30913,33 @@
             "declKind": "Func",
             "usr": "s:12Win2GainMyGP0aB19TabBarEventDelegateP04win2B12ScreenStatusyySbF",
             "mangledName": "$s12Win2GainMyGP0aB19TabBarEventDelegateP04win2B12ScreenStatusyySbF",
+            "moduleName": "Win2GainMyGP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.Win2GainTabBarEventDelegate>",
+            "sugared_genericSig": "<Self where Self : Win2GainMyGP.Win2GainTabBarEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "win2GainLandscapeStatus",
+            "printedName": "win2GainLandscapeStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12Win2GainMyGP0aB19TabBarEventDelegateP04win2B15LandscapeStatusyySbF",
+            "mangledName": "$s12Win2GainMyGP0aB19TabBarEventDelegateP04win2B15LandscapeStatusyySbF",
             "moduleName": "Win2GainMyGP",
             "genericSig": "<τ_0_0 where τ_0_0 : Win2GainMyGP.Win2GainTabBarEventDelegate>",
             "sugared_genericSig": "<Self where Self : Win2GainMyGP.Win2GainTabBarEventDelegate>",
@@ -38217,7 +38244,14 @@
     {
       "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 826,
+      "offset": 880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mah\/Documents\/Win\/win-gpsdk-ios\/Win-gpSDK-iOS\/Win2GainMyGP\/View\/Win2GainWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1080,
       "length": 5,
       "value": "false"
     },

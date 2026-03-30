@@ -1188,6 +1188,7 @@ public enum DecodingStrategy : Swift.Hashable {
 }
 public protocol Win2GainTabBarEventDelegate : AnyObject {
   func win2GainScreenStatus(_ isFullScreen: Swift.Bool)
+  func win2GainLandscapeStatus(_ isLandscape: Swift.Bool)
 }
 extension Win2GainMyGP.MissingLetterButton.StateStyle : Swift.Equatable {}
 extension Win2GainMyGP.MissingLetterButton.StateStyle : Swift.Hashable {}
