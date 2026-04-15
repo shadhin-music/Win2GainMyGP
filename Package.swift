@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Win2GainMyGP",
-            url: "https://github.com/shadhin-music/Win2GainMyGP/releases/download/1.2.0/Win2GainMyGP.xcframework.zip",
-            checksum: "892e0edf992028a2839d510ca0ddf59e54d33aa383e9e39a170f9fa8c1d24c57"
+            url: "https://github.com/shadhin-music/Win2GainMyGP/releases/download/1.2.1/Win2GainMyGP.xcframework.zip",
+            checksum: "f9c156898e0af47c5206dda3613fcf86a3ddedb186038597f21bd6a25b11e6ab"
         )
     ]
 )

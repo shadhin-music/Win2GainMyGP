@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Win2GainMyGP'
-  s.version               = '1.2.0'
+  s.version               = '1.2.1'
   s.summary               = 'Sample Spec'
   s.homepage              = 'https://github.com/shadhin-music/Win2GainMyGP'
 
