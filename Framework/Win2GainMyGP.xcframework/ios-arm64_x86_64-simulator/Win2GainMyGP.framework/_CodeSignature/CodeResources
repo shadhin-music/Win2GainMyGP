@@ -10,7 +10,7 @@
 		</data>
 		<key>GameButtonCollectionViewCell.nib</key>
 		<data>
-		lqD5QOM3+mIj6DMOeWHbjUPdOF0=
+		0Eu68kxF381VJd+a9JzqBvqYQqU=
 		</data>
 		<key>GameCollectionViewCell.nib</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iZedJFio1LeI7TFdcs+xp0jpCDU=
+		PWX6ne2nBUcsd5TYorFG9VNuhxQ=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mRSa5yP3+iPsR4DIzc6lPWm25qs=
+		mErlMyY0wNZ2CkqJC0Y+LTyZr40=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mRSa5yP3+iPsR4DIzc6lPWm25qs=
+		mErlMyY0wNZ2CkqJC0Y+LTyZr40=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wbz2Uil/lPTQCBXBW64OCC+g6h0=
+		/oFZathKEKvqu+Khudc24O7mIoE=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iZedJFio1LeI7TFdcs+xp0jpCDU=
+		PWX6ne2nBUcsd5TYorFG9VNuhxQ=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Xb6dSPwUNI7GTP4YSZzVt+wxMYc=
+		ohnDGFinuKLx/EIvmzqcJkNw4RI=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Xb6dSPwUNI7GTP4YSZzVt+wxMYc=
+		ohnDGFinuKLx/EIvmzqcJkNw4RI=
 		</data>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4k32r+p6Pq/3ITUhRTTIyl9GH3Q=
+		WkxhzxuFNnlqXwnnG9L1HluVIL4=
 		</data>
 		<key>NotoSansBengali-Regular.ttf</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>WinGameResultView.nib/objects-14.0+.nib</key>
 		<data>
-		2voFkrlwHZkY5bLPqhKN5pdv23I=
+		Cdb/nB+mvURuPjdGfUnFrCleXq0=
 		</data>
 		<key>WinGameResultView.nib/runtime.nib</key>
 		<data>
-		qGWa5azg52izDEP4z3B4j4Ij5eM=
+		CK3GKLXzPBwHv6enTjDFse7J0X4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/eHbf/C0PXYk8ZiUadOMN8dZ6cA8Q/2v25xqd0PdiE=
+			xwM3u73A0L1RNaGFqqD3OLnW9CtbQZhXOxUyEc/eROI=
 			</data>
 		</dict>
 		<key>GameCollectionViewCell.nib</key>
@@ -244,14 +244,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E6uTUk0qlvTALbq1IyE2aP2oJUnOKYd+hNrfFjgXm2M=
+			9BxgQKWrEAkCeBJliwgM+v/sDCew788NniCm/fxJqaM=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X59T3j6/6BClIPtxZHX4X2SrSdVG1BcxDSd66jNgNhI=
+			VPWZXBiuFrsItUUeXcqbhpXEO9EiRPz0AYavuvHvA1A=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -265,28 +265,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X59T3j6/6BClIPtxZHX4X2SrSdVG1BcxDSd66jNgNhI=
+			VPWZXBiuFrsItUUeXcqbhpXEO9EiRPz0AYavuvHvA1A=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgz9kJ75aNO00eCN7ogq1lhU+MSDGy8wfzCxTYinv9k=
+			4HbMBTBqtnD7/+lIDnVgM82nORusxXCvpQvWFIzBbGQ=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E6uTUk0qlvTALbq1IyE2aP2oJUnOKYd+hNrfFjgXm2M=
+			9BxgQKWrEAkCeBJliwgM+v/sDCew788NniCm/fxJqaM=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KiC96is14P1mtDR1ssRz06HD84efhFyDd26rpXwTnEs=
+			VqnYMlo81VSwRT5cG7tYzwDUmNAwvzVNfJamPFkoX6o=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -300,14 +300,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KiC96is14P1mtDR1ssRz06HD84efhFyDd26rpXwTnEs=
+			VqnYMlo81VSwRT5cG7tYzwDUmNAwvzVNfJamPFkoX6o=
 			</data>
 		</dict>
 		<key>Modules/Win2GainMyGP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHIgF9sIB0nK/PHNh5p79a3vPi4wcVwumAfDSEHFi9c=
+			wWkZ5uubzxydrVfybctAhM5zjLODgfKrfcOn63u+pY8=
 			</data>
 		</dict>
 		<key>NotoSansBengali-Regular.ttf</key>
@@ -342,14 +342,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tAp7Aa5DgRdVGJtfKxDN8E13POIgqrksIrJFSfj4rAg=
+			ZDkf7Jm7lKc+5nE7+yZjVrqudwRFDIwpsaGs8CgyM1g=
 			</data>
 		</dict>
 		<key>WinGameResultView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TzH/HjUdfFhk4h2HhqEcxaYTB8IyPvt9y9FnlbO+bt8=
+			jcUhwTmmKh4T8jeRzhN0Pc7jklpeFSZz5hXeWGI5kms=
 			</data>
 		</dict>
 	</dict>

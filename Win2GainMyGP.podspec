@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Win2GainMyGP'
-  s.version               = '1.2.1'
-  s.summary               = 'Sample Spec'
+  s.version               = '1.1.9'
+  s.summary               = 'Win to Gain My GP iOS SDK'
   s.homepage              = 'https://github.com/shadhin-music/Win2GainMyGP'
 
   s.author                = { 'Md Abir Hossain' => 'mdabirhossain.dev@gmail.com' }
